@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Exercise1</string>
+    <string name="tvRegister">Belum Tedaftar</string>
+    <string name="tEmail">Email</string>
+    <string name="tPassword">Password</string>
+    <string name="btnLogin">LOGIN</string>
+    <string name="tData">Data Kontak</string>
+    <string name="eNama">Nama</string>
+    <string name="eAlamat">Alamat</string>
+    <string name="JenisKelamin">Jenis Kelamin :</string>
+    <string name="Jk1">Laki-Laki</string>
+    <string name="Jk2">Perempuan</string>
+    <string name="RgAgama">Agama</string>
+    <string name="rbIs">Islam</string>
+    <string name="rbKr">Kristen</string>
+    <string name="rbKt">Katolik</string>
+    <string name="rbHi">Hindu</string>
+    <string name="rbBd">Buddha</string>
+    <string name="rbKg">Konghucu</string>
+    <string name="rbPk">Penganut Kepercayaan</string>
+    <string name="PDaftar1">Email</string>
+    <string name="edEmail">Email</string>
+    <string name="PdafPass">Password</string>
+    <string name="Pdafrepass">Password</string>
+    <string name="edPassword">Password</string>
+    <string name="edrePassword">RePassword</string>
+    <string name="btnCancel">BATAL</string>
+    <string name="btnRegistrasi">DAFTAR</string>
+</resources>
