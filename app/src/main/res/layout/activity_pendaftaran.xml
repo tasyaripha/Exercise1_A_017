@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".pendaftaran">
+    tools:context=".pendaftaran"
+    android:background="@drawable/blue">
 
     <TextView
         android:layout_width="match_parent"
@@ -13,6 +14,7 @@
         android:text="Pendaftaran"
         android:textSize="15pt"
         android:textStyle="bold"
+        android:textColor="@color/black"
         android:gravity="center"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="15dp" />
@@ -75,7 +77,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center_vertical"
-            android:text="Jenis Kelamin :" />
+            android:text="Jenis Kelamin :"
+            android:textColor="@color/black"/>
 
         <RadioGroup
             android:orientation="horizontal"
@@ -88,14 +91,16 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.5"
-                android:text="Laki-Laki" />
+                android:text="Laki-Laki"
+                android:textColor="@color/black"/>
 
             <RadioButton
                 android:id="@+id/Jk2"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.5"
-                android:text="Perempuan" />
+                android:text="Perempuan"
+                android:textColor="@color/black"/>
         </RadioGroup>
     </LinearLayout>
 
@@ -111,7 +116,8 @@
             android:layout_gravity="center_vertical"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Agama :" />
+            android:text="Agama :"
+            android:textColor="@color/black"/>
 
         <RadioGroup
             android:orientation="vertical"
@@ -124,21 +130,24 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="0.3"
-                android:text="Islam" />
+                android:text="Islam"
+                android:textColor="@color/black"/>
 
             <RadioButton
                 android:id="@+id/rbKr"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_weight="0.3"
-                android:text="Kristen" />
+                android:text="Kristen"
+                android:textColor="@color/black"/>
 
             <RadioButton
                 android:id="@+id/rbKi"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_weight="0.3"
-                android:text="Katolik" />
+                android:text="Katolik"
+                android:textColor="@color/black"/>
         </RadioGroup>
 
         <RadioGroup
@@ -153,21 +162,24 @@
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_weight="0.3"
-                android:text="Hindu" />
+                android:text="Hindu"
+                android:textColor="@color/black"/>
 
             <RadioButton
                 android:id="@+id/rbBd"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_weight="0.3"
-                android:text="Budha" />
+                android:text="Budha"
+                android:textColor="@color/black"/>
 
             <RadioButton
                 android:id="@+id/rbKg"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_weight="0.3"
-                android:text="Konghucu" />
+                android:text="Konghucu"
+                android:textColor="@color/black"/>
         </RadioGroup>
 
         <RadioGroup
@@ -182,7 +194,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_weight="0.3"
-                android:text="Penganut Kepercayaan" />
+                android:text="Penganut Kepercayaan"
+                android:textColor="@color/black"/>
         </RadioGroup>
     </LinearLayout>
 
