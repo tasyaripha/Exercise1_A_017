@@ -11,8 +11,10 @@ import android.widget.PopupMenu;
 import android.widget.SearchView;
 
 import java.util.ArrayList;
+import java.util.Collection;
 
 public class data_kontak extends AppCompatActivity implements PopupMenu.OnMenuItemClickListener, View.OnClickListener {
+    public static Collection<? extends Model> classNamaArrayList;
     Bundle bundle = new Bundle();
     Intent intent;
     private SearchView tCari;

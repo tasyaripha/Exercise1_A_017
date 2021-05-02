@@ -26,4 +26,11 @@
     <string name="edrePassword">RePassword</string>
     <string name="btnCancel">BATAL</string>
     <string name="btnRegistrasi">DAFTAR</string>
+    <string name="editdata">Lihat Nomor</string>
+    <string name="lihatdata">Lihat Data</string>
+    <string name="namaitem">Nama Item</string>
+    <string name="notel">Nomor Telepon</string>
+    <string name="detailkontak">Detail Kontak</string>
+    <string name="tnamtak">Nama Kontak</string>
+    <string name="tnotel">Nomor Telpon</string>
 </resources>
